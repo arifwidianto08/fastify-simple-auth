@@ -16,19 +16,12 @@ model User {
   email     String   @unique
   firstName String?
   lastName  String?
-  password  String
-  profile   String?
+  password  String?
+  birthdate DateTime?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  posts     Post[]
+
+  @@map("users")
 }
 
-model Post {
-  id        Int      @id @default(autoincrement())
-  content   String
-  viewCount Int
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  createdBy User     @relation(fields: [userId], references: [id])
-  userId    Int
-}
+

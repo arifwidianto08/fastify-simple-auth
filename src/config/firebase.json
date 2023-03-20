@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "test-fastify-simple-app",
+  "private_key_id": "3d3f0abb4622662287875a859208ff938aa3276f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCXuM+bSmR6GxOm\nR5dopv5EvJ6SheLcCDm4+IX+lsEC8uLQe1C3QjPmTZSi564Ud0ZDyZB+Px22C7VZ\nwn/6v7edey9/zs/x5kUMADr7Q+Dwz1zx/EnT1ykwkhpz5VhJYGAN8S6F5Vro1DA+\nrZPjznaU1OQZqxri4OaZSTyBt8d570C+P00AM+7LNL600UIH/tNKGCAN33EIYEOw\nhtPwT69kjCBQD/8m1K/hTd1qCLB6GtN5tslMkr6rlKP9eIZcSyJVQN7lToRjliIf\nmTgIG42iVPc+ngvHELaIRLe0yaOSxa+pdJBhUzJtlpdPnzcCbUPTENZPJlkwDNuu\ntPZU06jDAgMBAAECggEAGDptgLVpBSzEvwVostAUA6MBSZGy0ANKQHUDZMvrJ47k\n1HkUwycBxbG23irUHDWN1W5fMiHfGz6UZ7CNIlwyNKZCyAydHVpxxUBWKuDEj3/1\nrjjlCzytObHjIoXJyvHmdOOCU+Rz14Fm8ONkHflO62ZxxH2T7g4PFQRicq6H3rss\nkPSL6A6FENYxDhKSrWJ1i+FMkONlhac/6dswNgyEa03U88FWgEFqzTtbZsiO/Gau\nYHi/TmsM/VOYGor/u3y7sX6aA5lw1xgUDJ1ruH8uqlVP22fSUGMuR4UHbp4uzR5y\nAS/Fl8+sOZpj/nhIhbbZimTBTp9LAjz5dJaqUExvHQKBgQDRydCo8wO27aDXmJex\nYsOFGOmVBwtoW5fqTb9uKJTES2NO1ym4MBm2SP9E71k6vEDLehU4tUtbZl/+vigq\nZX1KoPtSoeMADs5TKZ5ZQnMYZmL3LQJ4E0b/yjF+6J6F6uSIGY5aZbJIGY55XmtC\nXxbYFV/ILj4xZidSyn1mL7fibwKBgQC5JJG/B6Mu9xKHi64E74RyTQwKrGuMreOS\nrxVg7llXyMkeiRkaAGglxLmS73C1xSY4soOE/gH4Aqs2FFhW0Lf4QbMorSe5TSNp\noAYKcycBMHL0qhuEPNUoXEVq7Wu4XcSUqAkr5x+cpQISmHZ0NDNfsBV5652LkM3m\nfb7fjz147QKBgHTVIgGVJRJxEExBTOmbCSxMjXlTbQT3TYlNNzkQHJmdKncz2KYd\nE5Sy3obzjQvq32LyYHMudAM45mkmWZQS5U30jUKdqZ/Unw8tdGRdX1/NVXw2ctOQ\nWNAHOL1mqzIFeLRbFy48yKbipLfu32kdL8mzTZ5cMoKsU2YGIwQPuya9AoGAbh/o\naV5bnCXuaZ2V5u2pNGvLy9V/K3CLOsbVypA7qFGP/4/A1IyFZmG7mEDAI/6em37j\naAnGlgTQXhx/5zPDGfHKZVmJlVjixYMf1Ltl6fkth4ZfU6rzh0xLJi0Os91ifqHs\nwqZ5US19LB5v5vLd0/7i52BUl52MO5t0G3oSMIkCgYBhqR6TDHB7IhVrVnmLoWhI\nXkLOKveQzsGKgM9WqGGUZjYfFxzFbBAS3+pIVOC6J4Dq9kRxdoP96XPUk/gFI8Gl\nTWusJqhPHCf83enIz11Y0cxicKnCT6xdc8NmRoyMfCt+aA4RMCiRkof3b0qthwnT\nuP0nPimees14xD7RJr8vrw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-r0fs5@test-fastify-simple-app.iam.gserviceaccount.com",
+  "client_id": "117074795749294370568",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-r0fs5%40test-fastify-simple-app.iam.gserviceaccount.com"
+}

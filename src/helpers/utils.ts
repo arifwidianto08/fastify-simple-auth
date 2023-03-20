@@ -26,7 +26,7 @@ export const utils = {
       })
     })
   },
-  compareHash: (hash, value) => {
+  compareHash: (value, hash) => {
     return new Promise((resolve, reject) => {
       bcrypt.compare(value, hash, (err, result): boolean | any => {
         if (err) reject(err)
@@ -36,8 +36,7 @@ export const utils = {
   },
   healthCheck: (): Promise<void> => {
     return new Promise((resolve, reject) => {
-      prisma
-        .$queryRaw`SELECT 1`
+      prisma.$queryRaw`SELECT 1`
         .then(() => {
           resolve()
         })
@@ -45,5 +44,5 @@ export const utils = {
           reject(e)
         })
     })
-  }
+  },
 }
