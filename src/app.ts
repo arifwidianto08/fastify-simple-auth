@@ -7,8 +7,6 @@ import authRouter from './routes/auth.router'
 import userRouter from './routes/user.router'
 import { ReasonPhrases, StatusCodes } from 'http-status-codes'
 
-loadConfig()
-
 export const buildApp = async () => {
   try {
     const app = fastify({
