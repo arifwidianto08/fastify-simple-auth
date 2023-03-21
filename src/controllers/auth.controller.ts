@@ -101,8 +101,6 @@ export const loginWithFirebase = async (
 ) => {
   try {
     const { token } = request.body
-
-    console.log('anjingggg asuk tolol kontoll')
     const validToken = await auth()
       .verifyIdToken(token)
       .catch(() => {
