@@ -1,4 +1,4 @@
-import path from 'path'
+require('dotenv').config()
 import envSchema from 'env-schema'
 import S from 'fluent-json-schema'
 
@@ -8,13 +8,11 @@ export const awsConfig = {
   AWS_REGION: process.env.AWS_REGION,
 }
 
-export const awsBucketName = process.env.AWS_BUCKET_NAME;
-export const linkExpireTime = process.env.AWS_LINK_EXPIRE;
+export const awsBucketName = process.env.AWS_BUCKET_NAME
+export const linkExpireTime = process.env.AWS_LINK_EXPIRE
 
 export default function loadConfig(): void {
-  const result = require('dotenv').config({
-    path: path.join(__dirname, '..', '..', '.env'),
-  })
+  const result = require('dotenv').config()
 
   if (result.error) {
     throw new Error(result.error)
@@ -29,7 +27,10 @@ export default function loadConfig(): void {
       )
       .prop('API_HOST', S.string().required())
       .prop('API_PORT', S.string().required())
+      .prop('APP_JWT_SECRET', S.string().required())
       .prop('DATABASE_URL', S.string().required())
-      .prop('APP_JWT_SECRET', S.string().required()),
+      .prop('RESET_PASSWORD_URL', S.string().required())
+      .prop('SENDGRID_API_KEY', S.string().required())
+      .prop('EMAIL_SENDER', S.string().required()),
   })
 }

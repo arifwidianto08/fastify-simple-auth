@@ -1,10 +1,10 @@
-# News & Topic Management
+# Fastify Simple Auth
 
-A simple CRUD app for news & topic management that runs on top of [Node.js](https://nodejs.org/en/) & [nx](https://nx.dev/).
+A simple CRUD app for Fastify Simple Auth that runs on top of [Node.js](https://nodejs.org/en/) & [nx](https://nx.dev/).
 
 ## Table of content
 
-- [News & Topic Management](#news--topic-management)
+- [Fastify Simple Auth](#fastify-simple-auth)
   - [Table of content](#table-of-content)
   - [Usage](#usage)
     - [Environment Variables](#environment-variables)
@@ -25,7 +25,7 @@ A simple CRUD app for news & topic management that runs on top of [Node.js](http
 
 ### Environment Variables
 
-You can neither place the environment variables ( `.env` ) at the [root directory](https://github.com/arifwidianto08/news-topic-management) of the project or inside of the [api](/apps/api) folder
+You can neither place the environment variables ( `.env` ) at the [root directory](https://github.com/arifwidianto08/fastify-simple-management) of the project or inside of the [api](/apps/api) folder
 
 Here's the properties
 
@@ -149,4 +149,4 @@ To setup the environment for the test ( including the database rollback/reset, m
 
 ### API Documentation
 
-Check the [News & Topic Management API Docs](https://documenter.getpostman.com/view/5050305/2s83zgsjG8)
+Check the [Fastify Simple Auth API Docs](https://documenter.getpostman.com/view/5050305/2s93RKyvBa)
