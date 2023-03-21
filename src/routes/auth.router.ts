@@ -77,7 +77,7 @@ async function authRouter(fastify: FastifyInstance) {
   })
 
   fastify.route({
-    method: 'POST',
+    method: 'PUT',
     url: '/change-password',
     schema: changePasswordSchema,
     preValidation: fastify.auth([fastify.asyncVerifyJWTandLevel]),

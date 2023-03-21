@@ -6,7 +6,6 @@ import { IUpdateUser, IUser } from '../interfaces'
 
 export const getProfile = async (request: IUpdateUser, reply: FastifyReply) => {
   try {
-    console.log('Terlalu WIKWOKKK')
     const userFromToken = request.user as IUser
     const user = await prisma.user.findFirst({
       where: { id: userFromToken.id },

@@ -8,7 +8,7 @@ export async function sendEmail(data: Partial<MailDataRequired>) {
 
   console.log('Sending an email...')
   console.log('Email Data : ', data)
-  sendGrid
+  return sendGrid
     .send({
       ...(data as MailDataRequired),
       from: sender,
