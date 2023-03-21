@@ -53,24 +53,34 @@ jobs:
           yarn db:generate
           yarn db:migrate
         env:
-          CURRENT_ENV: 'TEST'
-          # Database Test
-          DB_TEST_TYPE: 'pg'
-          DB_TEST_HOST: 127.0.0.1
-          DB_TEST_PORT: 5432
-          DB_TEST_USER: 'postgres'
-          DB_TEST_PASSWORD: 'test123456789'
-          DB_TEST_DATABASE: 'db_test'
+          # General
+          NODE_ENV: 'test'
+          LOG_LEVEL: 'debug'
+          API_HOST: 127.0.0.1
+          API_PORT: 9000
+          # Auth
+          APP_JWT_SECRET: KaNdRgUkXp2s5v8y/B?E(H+MbQeShVmYq3t6w9z$C&F)J@NcRfUjWnZr4u7x!A%D
+          RESET_PASSWORD_URL: http://example.com/user/password/verify
+          # local connection
+          DATABASE_URL: 'postgresql://postgres:test123456789@localhost:5432/db_test?schema:public'
+          # Email Configuration
+          SENDGRID_API_KEY: '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'
+          EMAIL_SENDER: 'arifwidiantoworks@gmail.com'
 
       # Runs a set of commands using the runners shell
       - name: Running test command
         run: yarn test
         env:
-          CURRENT_ENV: 'TEST'
-          # Database Test
-          DB_TEST_TYPE: 'pg'
-          DB_TEST_HOST: 127.0.0.1
-          DB_TEST_PORT: 5432
-          DB_TEST_USER: 'postgres'
-          DB_TEST_PASSWORD: 'test123456789'
-          DB_TEST_DATABASE: 'db_test'
+          # General
+          NODE_ENV: 'test'
+          LOG_LEVEL: 'debug'
+          API_HOST: 127.0.0.1
+          API_PORT: 9000
+          # Auth
+          APP_JWT_SECRET: KaNdRgUkXp2s5v8y/B?E(H+MbQeShVmYq3t6w9z$C&F)J@NcRfUjWnZr4u7x!A%D
+          RESET_PASSWORD_URL: http://example.com/user/password/verify
+          # local connection
+          DATABASE_URL: 'postgresql://postgres:test123456789@localhost:5432/db_test?schema:public'
+          # Email Configuration
+          SENDGRID_API_KEY: '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'
+          EMAIL_SENDER: 'arifwidiantoworks@gmail.com'

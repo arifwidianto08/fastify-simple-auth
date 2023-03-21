@@ -10,10 +10,10 @@
     "test": "jest",
     "postinstall": "npx typesync && husky install",
     "prisma": "dotenv -e .env prisma",
-    "db:generate": "npm run prisma generate",
-    "db:studio": "npm run prisma studio",
-    "db:migrate": "npm run prisma migrate dev",
-    "db:push": "npm run prisma db push",
+    "db:generate": "yarn run prisma generate",
+    "db:studio": "yarn run prisma studio",
+    "db:migrate": "yarn run prisma migrate dev",
+    "db:push": "yarn run prisma db push",
     "lint": "./node_modules/.bin/eslint"
   },
   "repository": {
@@ -118,7 +118,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "npm run build"
+      "pre-push": "yarn run build"
     }
   }
 }
