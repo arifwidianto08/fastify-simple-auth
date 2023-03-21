@@ -1,6 +1,6 @@
 # Fastify Simple Auth
 
-A simple CRUD app for Fastify Simple Auth that runs on top of [Node.js](https://nodejs.org/en/) & [nx](https://nx.dev/).
+A simple app for Running Authentication using a Basic Method & Firebase Auth that build on top of [Node.js](https://nodejs.org/en/) , [Fastify](https://www.fastify.io/), [Prisma](https://www.prisma.io/)
 
 ## Table of content
 
