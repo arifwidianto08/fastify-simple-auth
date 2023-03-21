@@ -1,3 +1,4 @@
+require('dotenv').config()
 import { utils } from './helpers/utils'
 import fastify, { FastifyError, FastifyReply, FastifyRequest } from 'fastify'
 import pino from 'pino'
@@ -7,7 +8,7 @@ import authRouter from './routes/auth.router'
 import userRouter from './routes/user.router'
 import { ReasonPhrases, StatusCodes } from 'http-status-codes'
 
-loadConfig()
+// loadConfig()
 
 export const buildApp = async () => {
   try {
