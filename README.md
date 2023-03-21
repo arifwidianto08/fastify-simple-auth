@@ -15,7 +15,6 @@ A simple app for Running Authentication using a Basic Method & Firebase Auth tha
     - [Database Setup](#database-setup)
       - [Generating Prisma Client](#generating-prisma-client)
       - [Migrate the database](#migrate-the-database)
-      - [Rollback the database](#rollback-the-database)
       - [Seed the database](#seed-the-database)
     - [Test the app](#test-the-app)
       - [Running e2e tests](#running-e2e-tests)
@@ -144,8 +143,6 @@ To execute the e2e tests via [Jest](https://jestjs.io), run
 ```
 $ yarn test
 ```
-
-To setup the environment for the test ( including the database rollback/reset, migration, and seeding ) and running the e2e tests via [Jest](https://jestjs.io), you can run this command instead
 
 ### API Documentation
 
